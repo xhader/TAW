@@ -1,3 +1,16 @@
+## Uruchomienie
+
+
+Wszystkie poniższe komendy należy wykonać z poziomu repozytorium:
+
+1. Zainstalować `docker` na systemie operacyjnym
+2. Upewnić się, że `docker ps` działa z poziomu użytkownika
+3. Zbudować obraz poprzez uruchomienie `build.sh`
+4. Uruchomić API REST poprzez uruchomienie `run.sh`
+5. Uruchomić testy: `tests.sh`
+6. Testy powinny dać wynik widoczny w sekcji Wynik działania systemu
+
+
 # Wynik działania systemu:
 
 ## 1. Wprowadzenie przedmiotów do systemu:
@@ -293,17 +306,6 @@
 * Connection #0 to host 127.0.0.1 left intact
 []
 ```
-## Uruchomienie
-
-
-Wszystkie poniższe komendy należy wykonać z poziomu repozytorium:
-
-1. Zainstalować `docker` na systemie operacyjnym
-2. Upewnić się, że `docker ps` działa z poziomu użytkownika
-3. Zbudować obraz poprzez uruchomienie `build.sh`
-4. Uruchomić API REST poprzez uruchomienie `run.sh`
-5. Uruchomić testy: `tests.sh`
-6. Testy powinny dać wynik widoczny w sekcji Wynik działania systemu
 
 ## Scenariusz do raportu
 
